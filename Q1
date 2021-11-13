@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1918px;
+            height: 935px;
+            background-color: #ffffff;
+        }
+
+        #sidebar {
+            position: absolute;
+            width: 150px;
+            height: 935px;
+            background-color: #191718;
+        }
+
+        ul {
+            text-decoration: none;
+            list-style-type: none;
+        }
+
+        li {
+            color: white;
+            width: 15px;
+            height: 44px;
+        }
+
+        #group1 {
+            width: 1510px;
+            height: 210px;
+            margin: auto;
+            background: #EFEFEF;
+
+        }
+
+        h3 {
+            width: 241px;
+            height: 21px;
+            margin: auto;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            color: #000000;
+        }
+
+        #para1 {
+            width: 972px;
+            height: 95px;
+            margin: auto;
+            align-items: center;
+            text-align: center;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            display: flex;
+            color: #000000;
+        }
+
+        #logo {
+            display: block;
+            margin: auto;
+            width: 310px;
+            height: 122px;
+        }
+
+        .column {
+            float: left;
+            width: 470px;
+            padding: 10px;
+            height: 252px;
+        }
+
+        .row {
+            padding-left: 200px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        footer {
+            display: flex;
+            padding: 300px 200px;
+            width: 1768px;
+            height: 79px;
+        }
+
+        footer p {
+            width: 125px;
+            height: 19px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #3E3E3E;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="sidebar">
+        <ul>
+            <li>Contact</li>
+            <li>Blog</li>
+            <li>News</li>
+            <li>Service</li>
+            <li>Home</li>
+        </ul>
+    </div>
+    <div>
+        <div id="logo">
+            <img src="https://s3-alpha-sig.figma.com/img/be54/004d/40b2754bf32a69e46f3afbc0bc31cd28?Expires=1637539200&Signature=SWBU8yHnjtOwAEHsG3NflfI2~D-9Ibaef2qRtkV2ehh2Ry~viSh2~nWUX4avlUXTewCyXyr-dsa3V1u157MLEI96UXP4xJDnzs22YfWCOIdp0JO59pKHGQqk1E3dMBt4bSAx59V~TJx10o7rvukYvkfHFvJqWhCnlLBIvgeHpDSsEBX0Ruo3lA123ozGwlf42bcvViH7hUA8MYYj1pmni2wY3W042wC95zJ~5ci9siRTLABCKSuca28avSMhsbnMMzqM8KBAWyj5so7qGLU8N2TZHaLZ7yK3U09Q3qvECQtwEeK5Pj69C3n5aGUOUZYg~h4nEa6LyyF4cioyFqluaA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                alt="NCC" width="200px" height="100px">
+        </div>
+        <div id="group1">
+            <h3>Lorem ipsum dolor sit asmet?</h3>
+            <p id="para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique consequat placerat.
+                Vestibulum
+                auctor pellentesque sem, eu posuere erat hendrerit quis. Maecenas vel consequat turpis. Nam facilisis,
+                ligula in mattis sodales, augue justo tristique nulla, sed lacinia ante eros ut mi. Morbi vitae diam
+                augue. Aliquam vel mauris a nibh auctor commodo. Praesent et nisi eu justo eleifend convallis. Quisque
+                suscipit maximus vestibulum. Phasellus congue mollis orci, sit amet luctus augue tristique eu. Donec
+                vulputate odio neque, sed semper turpis pellentesque a.</p>
+        </div>
+
+
+        <div class="row">
+            <div class="column">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <img id="rowImg"
+                    src="https://s3-alpha-sig.figma.com/img/ee5d/7134/af6932e0d359fce7f35402c40d54bc99?Expires=1637539200&Signature=S5X2mnLNW1ab~vSF-NXnabjnr3htW7P2ZtyaXvRQvbaMKNuLL2YInb5g4YwLbjJp0yh6N~KcMO5nBg6pLfyaJtcKnXPe2kxy6jt5BEs-RlWNYCdKzIml~2hz1-i1NAVZm22aDmQJwyzGXnsl595TFGhvLJzNyv2d60rpFQMkzp2U2zB-3zmQ2FeNDgZSNIn3oidlNhSjFRoI8p1BPyfmTgkFAwdWs-u7zKCWXRD-9TFUcfbKxSniUaz8k6LwHGlnzNt4XyF0PmPqFddATFmJBJomp7sF1RZ~RoWyUjUjtwgRKu~EKFjLyo53tcQyt-rWlxjZ-gkdDOf7LNh6bK7Afg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    width="128px" height="128px">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut,
+                    posuere
+                    felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta
+                    massa
+                    in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at </p>
+                <p>ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat
+                    condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices
+                    vestibulum
+                    mattis.</p>
+            </div>
+            <div class="column">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <img id="rowImg"
+                    src="https://s3-alpha-sig.figma.com/img/c9c3/230b/112f1704f67d2cb7c852b396cde6858e?Expires=1637539200&Signature=Dh~qqOwQvVRi5PwwwBj1lRJbQ65NXxwVBooJVPTkcahI5gjuLUDHN4eni7m2BxxhSaPVkCJWZxhsH1Xk2olnsvhg4aKItUuf47Hhw-twDCZrwygnGdK-GM3qvIBrpXesjQ1fJnzCj9RFp4FTHhXsLnpWtF~s-7Be1Hvv-0IRfW1snG4xaYBjM5EcsnQ9H6FaQrJ3cIwcL-mmc7lECK34WzRLKv5yx7-jWPeY4GCG65TiXq2B-692ZBnb9LrcYG4JskyvbEj2agX9-iSommKtUO3VxPwSmk5niT~3xT1BqaAuxUoly3VhixQKQM1px3LaGAybmjHU1J0h5YIE263TfQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    width="128px" height="128px">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut,
+                    posuere
+                    felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta
+                    massa
+                    in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at </p>
+                <p>ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat
+                    condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices
+                    vestibulum
+                    mattis.</p>
+            </div>
+            <div class="column">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <img id="rowImg"
+                    src="https://s3-alpha-sig.figma.com/img/2283/e203/66ceb1e8d5d276758ee00c3663bae8e9?Expires=1637539200&Signature=HTe72aOBORn6fDGdZRUJS5x1aRQd5PUTVwCp4W0AC7jkJK~dGJDpu9~NPjysIGOXZ6dZdMEUxUopwTCtlprTu~G~l4g6CDgAwHSdctpNZkfXMzYPDmlqBnNtRJdYN6i7C5OF~4-nEJ62iPVgMKJCSfNP4KDxNXL1uwv9k7cRDaaNRa6eeqz-Y3P-kCGUP5yrzWmP0SujD8F8-CSv-mSWMTBqVJB2o9~iqtFzszdyy-VSD~KjbdJ6ld1U55PqwpzCXfYzpJZM7OPzwZzDVj60wniXb~BHEq6aAQFNRiX8W9HLfR5crc6T7ZVyL9VzluC~GlsnynpYRiDMA34l5lxsqA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    width="128px" height="128px">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut,
+                    posuere
+                    felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta
+                    massa
+                    in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at </p>
+                <p>ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat
+                    condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices
+                    vestibulum
+                    mattis.</p>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright © 2021</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
